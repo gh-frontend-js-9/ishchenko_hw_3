@@ -11,7 +11,6 @@
 	box-sizing: inherit;
 }
 
-@media (min-width: 1200px){
 	.wrapper{
 		max-width: 1100px;
 		width: 100%;
@@ -63,10 +62,6 @@
 		flex:2;
 	}
 
-	.fork_logo{
-		vertical-align: middle;
-	}
-
 	.fork_name{
 		margin-left: .5em;
 		text-transform: uppercase;
@@ -82,18 +77,37 @@
 		background-size: cover;
 	}
 
+	.main_heading,
+	.heading_description,
+	.fork_version{
+		text-align: center;
+	}
 
+	.main_heading{
+		font-size: 5rem;
+		color: #fff;
+		padding-top: 1em;
+		margin-bottom: 0;
+	}
 
+	.heading_description{
+		font-size: 2rem;
+		color:#8d81ac;
+		margin: 0;
+	}
 
+	.fork_version{
+		color: #848e97;
+		margin-top: 0;
+		margin-bottom: ;
+		font-weight: lighter;
+	}
 
+	.position_button{
 
+	}
 
+	.download_button{
+		
+	}
 
-
-
-
-	
-
-
-	
-}
