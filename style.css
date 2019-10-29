@@ -34,7 +34,7 @@
 
 @media(max-width: 520px){
 	.padding_nav{
-		padding: .1em;
+		
 	}
 }
 
@@ -44,6 +44,11 @@
 	padding-left: 0;
 	list-style-type: none;
 	align-items: center;	
+}
+
+.logo_link{
+	text-decoration: none;
+	font-weight: bold;
 }
 
 .links{
@@ -56,6 +61,7 @@
 
 @media(max-width: 520px){
 	.links{
+		display: none;
 		font-size: .7em;
 		margin-right: .5em;
 	}
@@ -73,13 +79,23 @@
 
 @media(max-width: 520px){
 	.header_button{
-		font-size: .7rem;
+		font-size: .7em;
 	}
 }
 
 .header_button:hover{
 	background-color: #fff;
 	color: #635c73;
+}
+
+.side_burger{
+	display: none;
+}
+
+@media(max-width: 520px){
+	.side_burger{
+		display: block;
+	}
 }
 
 .flex_logo_right{
@@ -111,9 +127,6 @@
 		background-size: cover;
 	}
 }
-
-
-
 
 .main_heading{
 	font-size: 5em;
@@ -369,7 +382,6 @@
 	color: #fff;
 }
 
-
 .feedback_article{
 	flex:30%;
 	text-align: center;
@@ -403,7 +415,6 @@
 	align-items: stretch;
 }
 
-
 .cost_block{
 	background-color: #5f5161;
 	text-align: center;
@@ -413,7 +424,6 @@
 .cost_block:hover{
 	background-color: #413344;
 }
-
 
 @media(max-width: 520px){
 	.flex_price{
@@ -428,11 +438,10 @@
 .tarif_type{
 	text-transform: uppercase;
 	font-weight: bold;
-	color:#fff;
-	background-color: #685b6a; 
+	color:#fff; 
 	padding: 1em;
+	background-color: #685b6a;
 }
-
 
 .money{
 	color: #fff;
@@ -499,7 +508,6 @@
 	}
 }
 
-
 .email_input{
 	width: 30%;
 	padding: .5em 0 .5em .5em;
@@ -541,8 +549,6 @@
 	flex:30%;
 	margin:1em;
 }
-
-
 
 .footer_heading_new,
 .footer_heading_popular,
@@ -598,6 +604,7 @@
 .author_number{
 	font-weight: bold;
 	font-size: 2em;
+	line-height: 2;
 }
 
 .availible{
@@ -612,16 +619,3 @@
 .additional_inf{
 	flex:25%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
