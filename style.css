@@ -22,7 +22,8 @@
 .trial_period,
 .heading_about,
 .text_about,
-.social{
+.social,
+.heading_feedback{
 	text-align: center;
 }
 
@@ -341,6 +342,57 @@
 .face{
 	background-color: #3b5998;
 	color: #fff;
+}
+
+/*feedback and price blocks*/
+.feedback{
+	background-color: #4b3b4e;
+	border-bottom: 2px solid #f4f4f4;
+}
+
+.heading_feedback{
+	padding: 1em;
+	color: #fff;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+@media(max-width: 520px){
+	.heading_feedback{
+		font-size: 2em;
+	}
+}
+
+.flex_feedback{
+	display: flex;
+	flex-wrap: wrap;
+	color: #fff;
+}
+
+
+.feedback_article{
+	flex:30%;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 2em;
+	line-height: 2;
+}
+
+@media(max-width: 520px){
+	.flex_feedback{
+		flex-direction: column;
+	}
+
+	.feedback_article{
+		padding: 0 5em 0 5em;
+	}
+}
+
+
+
+.logo_feed{
+	margin-bottom: 1em;
 }
 
 
